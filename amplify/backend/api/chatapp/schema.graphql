@@ -1,0 +1,6 @@
+type Message @model @searchable {
+  id: ID!
+  comment: String!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+}
